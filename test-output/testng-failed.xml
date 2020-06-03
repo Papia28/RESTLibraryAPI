@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test thread-count="5" name="Practice Tests(failed)">
+    <groups>
+      <run>
+        <include name="addBook"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="simulateDynamicLibrary.simulateDynamicAddBook">
+        <methods>
+          <include name="addBook"/>
+        </methods>
+      </class> <!-- simulateDynamicLibrary.simulateDynamicAddBook -->
+    </classes>
+  </test> <!-- Practice Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

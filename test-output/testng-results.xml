@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="24107" started-at="2020-05-27T20:06:19 IST" finished-at="2020-05-27T20:06:44 IST">
+    <groups>
+      <group name="addBook">
+        <method signature="simulateDynamicAddBook.addBook(int, java.lang.String, java.lang.String, int, java.lang.String, boolean)[pri:0, instance:simulateDynamicLibrary.simulateDynamicAddBook@52f759d7]" name="addBook" class="simulateDynamicLibrary.simulateDynamicAddBook"/>
+      </group> <!-- addBook -->
+    </groups>
+    <test name="Practice Tests" duration-ms="24107" started-at="2020-05-27T20:06:19 IST" finished-at="2020-05-27T20:06:44 IST">
+      <class name="simulateDynamicLibrary.simulateDynamicAddBook">
+        <test-method status="PASS" signature="addBook(int, java.lang.String, java.lang.String, int, java.lang.String, boolean)[pri:0, instance:simulateDynamicLibrary.simulateDynamicAddBook@52f759d7]" name="addBook" duration-ms="6225" started-at="2020-05-27T20:06:20 IST" data-provider="provideDynamicJSON" finished-at="2020-05-27T20:06:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Python Programming]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(int, java.lang.String, java.lang.String, int, java.lang.String, boolean)[pri:0, instance:simulateDynamicLibrary.simulateDynamicAddBook@52f759d7]" name="addBook" duration-ms="15400" started-at="2020-05-27T20:06:27 IST" data-provider="provideDynamicJSON" finished-at="2020-05-27T20:06:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Learn Appium Automation with Java]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jane Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(int, java.lang.String, java.lang.String, int, java.lang.String, boolean)[pri:0, instance:simulateDynamicLibrary.simulateDynamicAddBook@52f759d7]" name="addBook" duration-ms="413" started-at="2020-05-27T20:06:42 IST" data-provider="provideDynamicJSON" finished-at="2020-05-27T20:06:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium with Java]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(int, java.lang.String, java.lang.String, int, java.lang.String, boolean)[pri:0, instance:simulateDynamicLibrary.simulateDynamicAddBook@52f759d7]" name="addBook" duration-ms="447" started-at="2020-05-27T20:06:43 IST" data-provider="provideDynamicJSON" finished-at="2020-05-27T20:06:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[REST API Automation with Java]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jane Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(int, java.lang.String, java.lang.String, int, java.lang.String, boolean)[pri:0, instance:simulateDynamicLibrary.simulateDynamicAddBook@52f759d7]" name="addBook" duration-ms="462" started-at="2020-05-27T20:06:43 IST" data-provider="provideDynamicJSON" finished-at="2020-05-27T20:06:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestNG and Cucumber Basics]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Book5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- simulateDynamicLibrary.simulateDynamicAddBook -->
+    </test> <!-- Practice Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
