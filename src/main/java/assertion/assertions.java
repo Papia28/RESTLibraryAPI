@@ -1,4 +1,4 @@
-package assertion;
+package main.java.assertion;
 
 import org.testng.Assert;
 

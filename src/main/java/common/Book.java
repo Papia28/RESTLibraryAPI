@@ -1,4 +1,4 @@
-package main;
+package main.java.common;
 import org.testng.annotations.Test;
 
 import io.restassured.*;

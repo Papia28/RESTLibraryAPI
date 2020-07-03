@@ -1,4 +1,4 @@
-package simulateDynamicLibrary;
+package main.java.common.simulateDynamicLibrary;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
@@ -7,9 +7,9 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
-import utility.excelFunctions;
-import utility.jsonPayload;
-import utility.readJsonResults;
+import main.java.utility.excelFunctions;
+import main.java.utility.jsonPayload;
+import main.java.utility.readJsonResults;
 
 public class simulateDynamicAddBook {
 

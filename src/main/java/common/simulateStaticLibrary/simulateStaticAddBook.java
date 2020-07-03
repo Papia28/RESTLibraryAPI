@@ -1,14 +1,12 @@
-package simulateStaticLibrary;
+package main.java.common.simulateStaticLibrary;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-import java.io.IOException;
-
 import org.testng.annotations.Test;
 
-import utility.jsonPayload;
-import utility.readJsonResults;
+import main.java.utility.jsonPayload;
+import main.java.utility.readJsonResults;
 
 
 public class simulateStaticAddBook {
