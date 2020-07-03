@@ -8,12 +8,17 @@ public class jsonPayload {
 
 	public static String body = null;
 
-	public static String jsonToString(String name, String isbn, int aisle, String author) {
-
+	public static String jsonToString(String name, String isbn, int aisle, String author) throws Throwable{
+		try {
 		body = "{\r\n" + "\"name\":\"" + name + "\",\r\n" + "\"isbn\":\"" + isbn + "\",\r\n"
 				+ "\"aisle\":\"" + aisle + "\",\r\n" + "\"author\":\"" + author + "\"\r\n" + "}";
 
 		return body;
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			throw e;
+		}
 	}
 
 	public static String jsonToString(String path) throws IOException {
@@ -23,7 +28,9 @@ public class jsonPayload {
 			return body;
 		} catch (Exception e) {
 			e.printStackTrace();
-			return null;
+			throw e;
 		}
 	}
+	
+	//TODO static json present full inside the program
 }

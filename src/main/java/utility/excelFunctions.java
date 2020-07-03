@@ -44,6 +44,7 @@ public class excelFunctions {
 		catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Error in setting excel file path.");
+			throw e;
 		}
 	}
 	
@@ -92,7 +93,7 @@ public class excelFunctions {
 		catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Error in reading values from excel.");
-			return null;
+			throw e;
 		}
 		finally {
 			excelInputStream.close();
@@ -123,6 +124,7 @@ public class excelFunctions {
 		catch(Exception e) {
 			e.printStackTrace();
 			System.out.println("Error in output stream.");
+			throw e;
 		}		
 	}
 	
@@ -154,6 +156,7 @@ public class excelFunctions {
 		catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Error in setting values in cells.");
+			throw e;
 		} 
 		finally {
 			oWorkbook.close();

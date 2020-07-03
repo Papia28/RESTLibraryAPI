@@ -43,6 +43,7 @@ public class simulateDynamicAddBook {
 			e.printStackTrace();
 			System.out.println("Exception in @Test method.");
 			excelFunctions.setExcelData(tcNum, bookID, "Fail");
+			throw e;
 		}
 	}
 
@@ -55,7 +56,7 @@ public class simulateDynamicAddBook {
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Error in dataprovider");
-			return null;
+			throw e;
 		}
 	}
 

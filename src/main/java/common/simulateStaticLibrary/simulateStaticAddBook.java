@@ -17,7 +17,7 @@ public class simulateStaticAddBook {
 	private static String response = null, bookID = null;
 
 	@Test
-	public static String addBook() throws IOException {
+	public static String addBook() throws Throwable {
 
 		try {
 			response = given().log().all().header("Content-Type", "application/json")
