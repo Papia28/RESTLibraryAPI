@@ -1,4 +1,4 @@
-package main.java.common.simulateDynamicLibrary;
+package common.simulateDynamicLibrary;
 
 public class simulateDynamicDeleteBook {
 

@@ -1,4 +1,4 @@
-package main.java.utility;
+package utility;
 
 import io.restassured.path.json.JsonPath;
 

@@ -1,4 +1,4 @@
-package main.java.common.simulateDynamicLibrary;
+package common.simulateDynamicLibrary;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;

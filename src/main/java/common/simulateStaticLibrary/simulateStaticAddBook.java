@@ -1,4 +1,4 @@
-package main.java.common.simulateStaticLibrary;
+package common.simulateStaticLibrary;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;

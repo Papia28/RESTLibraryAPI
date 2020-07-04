@@ -1,4 +1,4 @@
-package main.java.common.simulateStaticLibrary;
+package common.simulateStaticLibrary;
 
 public class simulateStaticDeleteBook {
 
